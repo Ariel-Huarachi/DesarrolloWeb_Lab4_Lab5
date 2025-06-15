@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos2.css">
+    <title>Hotel Desarrollo Web</title>
+</head>
+<body>
+    <video autoplay muted loop playsinline id="video-fondo">
+        <source src="Video/videoplayback.webm" type="video/webm">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
+    <nav class="menu">
+        <ul>
+            <li><a href="javascript:cargar('inicio.html')"><img class="logo" src="Imagenes/logo2.png" alt=""></a></li>
+            <li><a href="javascript:cargar('tipoHabitaciones.php')">TIPOS DE HABITACIONES</a></li>
+            <li><a href="javascript:cargar('service.html')">SERVICIOS</a></li>
+            <li><a href="javascript:cargar('reservas.php')">MIS RESERVAS</a></li>
+            <li><a href="javascript:cargarFormulario('formReservar.html')">RESERVAR</a></li>
+        </ul>
+    </nav>
+    <div id="contenido">
+
+    </div>
+    <footer>
+        <h3>Hotel Desarrollo Web</h3>
+        <div class="footer-contenedor">
+            <div class="footer-contacto">
+                <h4>Contacto</h4>
+                <p>Dirección: Calle 25 de Mayo #456, Sucre, Bolivia</p>
+                <p>Teléfono: +591 69688100</p>
+                <p>Correo: pilotomendez777@gmail.com</p>
+            </div>
+
+            <div class="footer-enlaces">
+                <h4>Enlaces Rápidos</h4>
+                <p><a href="javascript:cargarFormulario('formReservar.html')">Reservar habitación</a></p>
+                <p><a href="javascript:cargar('tipoHabitaciones.php')">Tipos de habitaciones</a></p>
+                <p><a href="javascript:cargar('servicios.html')">Servicios del hotel</a></p>
+                <p><a href="/contacto.html">Contáctanos</a></p>
+            </div>
+
+            <div class="footer-redes">
+                <h4>Síguenos</h4>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">WhatsApp</a></p>
+            </div>
+        </div>
+
+        <div class="footer-final">
+            <p>© 2025 Hotel Desarrollo Web. Todos los derechos reservados.</p>
+            <p>Tu descanso, nuestra prioridad.</p>
+        </div>
+    </footer>
+
+    <script src="fetch.js"></script>
+</body>
+</html>

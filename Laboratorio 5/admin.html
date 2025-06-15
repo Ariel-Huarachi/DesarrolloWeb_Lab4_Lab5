@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel de Administración - Hotel Desarrollo Web</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="estilos2.css" />
+</head>
+<body>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="javascript:cargarAdmin('inicio_admin.html')">INICIO</a></li>
+            <li><a href="javascript:cargarAdmin('gestionar_tipos.php')">TIPOS DE HABITACIÓN</a></li>
+            <li><a href="javascript:cargarAdmin('gestionar_habitaciones.php')">HABITACIONES</a></li>
+            <li><a href="javascript:cargarAdmin('gestionar_reservas.php')">RESERVAS</a></li>
+            <li><a href="javascript:cargarAdmin('gestionar_usuarios.php')">USUARIOS</a></li>
+        </ul>
+    </nav>
+
+    <div id="contenido-admin">
+
+    </div>
+
+    <footer class="footer-admin">
+        <p>© 2025 Hotel Desarrollo Web - Panel de Administración.</p>
+    </footer>
+
+    <script src="fetch_admin.js"></script>
+
+</body>
+</html>

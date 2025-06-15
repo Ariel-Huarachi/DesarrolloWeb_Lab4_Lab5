@@ -1,0 +1,301 @@
+/* General */
+
+body {
+    background-color: #0b0b1b;
+    color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#contenido {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h3 {
+    color: #d4af37;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+a {
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #030303;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 0;
+    bottom: 0;
+    margin: 0;
+    border-top: #d4af37 1px solid;
+}
+
+div.footer-contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.footer-contacto {
+    width: 30%;
+    padding: 10px;
+}
+
+div.footer-enlaces {
+    width: 30%;
+    padding: 10px;
+}
+
+div.footer-redes {
+    width: 30%;
+    padding: 10px;
+}
+
+/* Inicio */
+
+#video-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 660px;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+nav.menu {
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+nav.menu ul li a img.logo {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2.inicio {
+    width: 160px;
+    background-color: #d4af37;
+    color: #f8f8f8;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    margin-top: 200px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+h1.inicio {
+    color: #f8f8f8;
+    font-size: 26px;    
+    padding: 10px;
+    margin: 0;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+/* Tipos de habitaciones */
+
+div.tipoHabitacion {
+    backdrop-filter: sepia(0.5);
+    width: 70%;
+    color: #f8f8f8;
+    padding: 0;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #d4af37;
+}
+
+div.tipoHabitacion img.imgTipos {
+    min-width: 40%;
+    max-width: 40%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+div.tipoHabitacion div.informacion {
+    min-width: 50%;
+    max-width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    height: 230px;
+}
+
+div.tipoHabitacion div.informacion h3 {
+    color: #d4af37;
+    font-size: 34px;
+    font-weight: 900;
+    margin: 0;
+}
+
+div.tipoHabitacion div.informacion p {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+div.tipoHabitacion div.informacion a.boton {
+    text-decoration: none;
+    color: #f8f8f8;
+    background-color: #d4af37;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+/* Habitaciones */
+
+div.containerH {
+    width: 80%;
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+}
+
+div.Habitacion {
+    backdrop-filter: blur(5px);
+    margin: auto;
+    width: 75%;
+    color: #f8f8f8;
+    padding: 15px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+}
+
+div.Habitacion img.imgHabitacion {
+    min-width: 100%;
+    max-width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+div.Habitacion div.informacion {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 20px;
+}
+
+div.Habitacion div.informacion h3 {
+    color: #d4af37;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+}
+
+div.Habitacion div.informacion p {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+div.Habitacion div.informacion a.boton {
+    text-decoration: none;
+    color: #f8f8f8;
+    background-color: #d4af37;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+/* Reservas */
+
+div.reserva {
+    width: 50%;
+    color: #f8f8f8;
+    padding: 0;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #d4af37;
+    height: auto;
+}
+
+img.img-reserva {
+    min-width: 70%;
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+div.reserva div.info-reserva {
+    backdrop-filter: sepia(0.5) blur(15px);
+    min-width: 90%;
+    max-width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    border: 1px solid #d4af37;
+}
+
+div.reserva div.info-reserva p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 200px;
+    min-width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+div.reserva div.info-reserva a.boton {
+    text-decoration: none;
+    color: #f8f8f8;
+    background-color: #d4af37;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+div.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div.cont-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-color: #d4af37;
+}

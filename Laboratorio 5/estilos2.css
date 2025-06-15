@@ -1,0 +1,113 @@
+div.nosotros {
+    width: 80%;
+    color: #f8f8f8;
+    padding: 0;
+    margin-top: 100px;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 40%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+div.nosotros div {
+    backdrop-filter: invert(0.2);
+    width: 50%;
+    height: 70%;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #d4af37;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+}
+
+div.historia {
+    width: 80%;
+    color: #f8f8f8;
+    padding: 0;
+    margin-top: 100px;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+div.historia div {
+    backdrop-filter: invert(0.2);
+    width: 50%;
+    height: 70%;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+div.acciones {
+    margin: 100px;
+}
+
+a.botones {
+    text-decoration: none;
+    color: #f8f8f8;
+    background-color: #d4af37;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+div#contenido-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+div.admin-botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+button {
+    background-color: #d4af37;
+    color: #f8f8f8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #d4af37;
+    padding: 10px;
+    text-align: left;
+}
