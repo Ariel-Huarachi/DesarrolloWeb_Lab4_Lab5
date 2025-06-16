@@ -2,7 +2,7 @@
 
 ## 👥 Integrantes
 
-| Nombre Completo               | Código SIS |
+| Nombre Completo               |           |
 |------------------------------|------------|
 | Mendez Condori Alex Ramiro   | 111-567    |
 | Huarachi Clemente Ariel      | 35-5544    |
