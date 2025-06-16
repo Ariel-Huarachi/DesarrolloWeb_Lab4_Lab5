@@ -2,7 +2,7 @@
 
 ## 👥 Integrantes
 
-| Nombre Completo               |           |
+| Nombre Completo               |     C.U   |
 |------------------------------|------------|
 | Mendez Condori Alex Ramiro   | 111-567    |
 | Huarachi Clemente Ariel      | 35-5544    |
